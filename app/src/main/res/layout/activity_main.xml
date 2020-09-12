@@ -6,7 +6,6 @@
     android:layout_height="match_parent"
     tools:context=".MainActivity">
 
-
     <Button
         android:id="@+id/btCapture"
         android:layout_width="wrap_content"
@@ -22,6 +21,7 @@
         app:layout_constraintTop_toTopOf="parent" />
 
     <androidx.camera.view.PreviewView
+        android:id="@+id/pvCamera"
         android:layout_width="match_parent"
         android:layout_height="match_parent"
         app:layout_constraintBottom_toBottomOf="parent"
